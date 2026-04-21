@@ -1674,7 +1674,7 @@
 		)
 		(uuid "c057027c-0ec4-438d-b17b-28e47a21bfcf")
 	)
-	(label "ADDR"
+	(label "GND"
 		(at 186.69 88.9 0)
 		(effects
 			(font
