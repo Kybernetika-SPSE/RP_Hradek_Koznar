@@ -4,7 +4,7 @@ import time
 i2c = I2C(0, scl=Pin(22), sda=Pin(21))
 addr = 0x48
 
-#  základní kalibrace
+#  kalibrace
 gain = 1.00
 offset = 0.20
 
@@ -37,7 +37,7 @@ while True:
     v_adc = raw * 0.000125
 
     # základní kalibrace
-    v_in = (v_adc * 3) * gain - offset
+    v_in = (v_adc * 4) * gain - offset
 
     #  rozdělení rozsahu
     if v_in > 6:
@@ -47,6 +47,7 @@ while True:
     if v_in < 0:
         v_in = 0
 
-    print("Napeti:", round(v_in, 2), "V")
+    print(round(v_in, 2))
 
-    time.sleep(2)
+    time.sleep(0.5)
+    

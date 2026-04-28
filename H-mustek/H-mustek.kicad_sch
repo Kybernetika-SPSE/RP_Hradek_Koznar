@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "52995681-7acb-4f91-931e-9f3e089d5300")
 	(paper "A4")
+	(title_block
+		(title "AD/AC střídač")
+		(date "20.2.2026")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -1989,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 132.08) (xy 45.72 132.08)
+			(xy 220.98 63.5) (xy 215.9 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 148.59) (xy 45.72 148.59)
+			(xy 222.25 80.01) (xy 215.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 151.13) (xy 45.72 151.13)
+			(xy 222.25 82.55) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2282,7 @@
 		(uuid "02171b6e-16ea-42ed-89e5-bc2b0af95238")
 	)
 	(label "VCC"
-		(at 50.8 132.08 0)
+		(at 220.98 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2292,7 @@
 		(uuid "0cdc0421-14d7-46a9-a6ba-8addbea458a1")
 	)
 	(label "VOUT1"
-		(at 52.07 148.59 0)
+		(at 222.25 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,7 +2302,7 @@
 		(uuid "4d9aa965-7dfe-47e5-be5c-66383ec73dd6")
 	)
 	(label "VOUT2"
-		(at 52.07 151.13 0)
+		(at 222.25 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2396,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 134.62 0)
+		(at 215.9 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2405,7 +2409,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ad2988b-b451-4645-870f-9acff080c334")
 		(property "Reference" "#PWR03"
-			(at 45.72 140.97 0)
+			(at 215.9 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 139.7 0)
+			(at 215.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 134.62 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 134.62 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 134.62 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3625,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 40.64 148.59 0)
+		(at 210.82 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3630,7 +3634,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9a3fac1-9785-4327-8da2-ea99c36166f1")
 		(property "Reference" "J2"
-			(at 41.275 143.51 0)
+			(at 211.455 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3642,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 41.275 146.05 0)
+			(at 211.455 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3650,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P7.2mm_D2.4mm_OD3.6mm"
-			(at 40.64 148.59 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 148.59 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3668,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 40.64 148.59 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3938,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 40.64 132.08 0)
+		(at 210.82 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3943,7 +3947,7 @@
 		(fields_autoplaced yes)
 		(uuid "f38f8c02-61e3-4cc5-a216-57083db0e122")
 		(property "Reference" "J1"
-			(at 41.275 127 0)
+			(at 211.455 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3955,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 41.275 129.54 0)
+			(at 211.455 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3963,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
-			(at 40.64 132.08 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 132.08 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3981,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 40.64 132.08 0)
+			(at 210.82 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
